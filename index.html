@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music World - Discover Great Music</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Music World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#genres">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artists">Artists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Music World</h1>
+            <p class="lead">Discover, Listen, and Share Your Favorite Music</p>
+            <a href="#genres" class="btn btn-primary btn-lg">Explore Genres</a>
+        </div>
+    </header>
+
+    <!-- Genres Section -->
+    <section id="genres" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular Music Genres</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card genre-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Rock</h3>
+                            <p class="card-text">Experience the power of electric guitars and dynamic rhythms.</p>
+                            <a href="#" class="btn btn-outline-primary">Explore Rock</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card genre-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Jazz</h3>
+                            <p class="card-text">Immerse yourself in smooth improvisations and soulful melodies.</p>
+                            <a href="#" class="btn btn-outline-primary">Explore Jazz</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card genre-card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Electronic</h3>
+                            <p class="card-text">Dive into the world of synthesizers and digital beats.</p>
+                            <a href="#" class="btn btn-outline-primary">Explore Electronic</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Artists Section -->
+    <section id="artists" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Artists</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card artist-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">John Smith</h4>
+                            <p class="card-text">Rock Guitar Legend</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card artist-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Sarah Davis</h4>
+                            <p class="card-text">Jazz Vocalist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card artist-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Mike Johnson</h4>
+                            <p class="card-text">Electronic Producer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card artist-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Lisa Brown</h4>
+                            <p class="card-text">Classical Pianist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2024 Music World. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
